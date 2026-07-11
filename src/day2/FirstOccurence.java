@@ -3,8 +3,8 @@ package day2;
 public class FirstOccurence {
     public static void main(String[] args) {
 
-        int[] arr = {10, 2, 3, 5, 6};
-        int target = 3;
+        int[] arr = {10, 2, 3, 2, 6};
+        int target = 2;
         boolean found = false;
 
         for (int i = 0; i < arr.length; i++) {
